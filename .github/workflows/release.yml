@@ -3,7 +3,7 @@ name: Release
 on:
   create:
     tags:
-      - v* # только теги начинающиеся с v: v1, v2, v5
+      - v* # только теги начинающиеся с v: v1, v2, v5 
 
 env:
   APP_IMAGE_NAME: plaatos/devops-example-app
